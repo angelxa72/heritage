@@ -5,13 +5,13 @@ const heritageSites = [
         name: "Ancient Grand Temple",
         district: "central",
         religion: "buddhist",
-        image: "https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+        image: "https://plus.unsplash.com/premium_photo-1697730266365-0c9e80aa3739?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "A magnificent temple complex dating back to the 8th century, known for its intricate carvings and spiritual significance.",
         importance: "Represents the pinnacle of ancient architectural achievement and serves as an active center for spiritual practice."
     },
     {
         id: 2,
-        name: "Royal Fortress Palace",
+        name: "Taj Mahal",
         district: "northern",
         religion: "all",
         image: "https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
@@ -32,13 +32,13 @@ const heritageSites = [
         name: "Historic Grand Mosque",
         district: "southern",
         religion: "islamic",
-        image: "https://images.unsplash.com/photo-1580330510113-511c887a078f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
+        image: "https://images.unsplash.com/photo-1512970648279-ff3398568f77?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description: "An architectural marvel from the 14th century featuring exquisite calligraphy and geometric patterns.",
         importance: "Exemplifies the fusion of local and Islamic architectural styles and serves as a center for community gathering."
     },
     {
         id: 5,
-        name: "Colonial Cathedral",
+        name: "Colosseum",
         district: "central",
         religion: "christian",
         image: "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80",
@@ -161,4 +161,5 @@ religionFilters.forEach(btn => {
 // Initial render
 document.addEventListener('DOMContentLoaded', function() {
     renderSites(heritageSites);
+
 });
